@@ -1,0 +1,31 @@
+nav a {
+    box-shadow: 10px;
+    border-radius: 5px;
+    border: .3rem outset rgb(146, 88, 156);
+    font-size: 20px;
+    padding: 2px 4px;
+    margin: 3px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(245, 238, 245);
+}
+
+div a {
+    padding-bottom: 5px;
+}
+
+.box {
+    display: flex;
+}
+
+.options {
+    object-fit: fill;
+    display: inline-block;
+    border: 4px;
+    border-color: gray;
+    border-style: ridge;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+    width: 350px;
+}
