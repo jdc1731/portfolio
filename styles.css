@@ -1,4 +1,4 @@
-nav a {
+nav>a {
     box-shadow: 10px;
     border-radius: 5px;
     border: .3rem outset rgb(146, 88, 156);
@@ -10,7 +10,7 @@ nav a {
     background-color: rgb(245, 238, 245);
 }
 
-div a {
+div>a {
     padding-bottom: 5px;
 }
 
@@ -18,8 +18,8 @@ div a {
     display: flex;
 }
 
-.options {
-    object-fit: fill;
+div>a.options>img {
+    object-fit: contain;
     display: inline-block;
     border: 4px;
     border-color: gray;
@@ -28,4 +28,8 @@ div a {
     margin: 10px;
     height: 500px;
     width: 350px;
+}
+
+#home {
+    margin-left: 500px;
 }
